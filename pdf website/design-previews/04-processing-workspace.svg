@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+  <title id="title">ClearPDF document processing workspace</title>
+  <desc id="desc">A clean white PDF review workspace with page thumbnails, document controls, OCR extracted text, and review status.</desc>
+  <defs>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; fill: #222428; }
+      .muted { fill: #7b8086; }
+      .soft { fill: #a1a5aa; }
+      .tiny { font-size: 10px; }
+      .small { font-size: 11px; }
+      .body { font-size: 12px; }
+      .label { font-size: 9px; font-weight: 700; letter-spacing: .9px; }
+      .line { stroke: #e7e8ea; stroke-width: 1; }
+      .papertext { fill: #24262a; font-family: Arial, sans-serif; }
+      .paper-muted { fill: #787d82; font-family: Arial, sans-serif; }
+    </style>
+    <filter id="paper-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#202124" flood-opacity=".09"/>
+    </filter>
+  </defs>
+
+  <!-- App frame -->
+  <rect width="1440" height="960" fill="#f5f6f7"/>
+  <rect width="1440" height="64" fill="#ffffff"/>
+  <line x1="0" y1="63.5" x2="1440" y2="63.5" class="line"/>
+
+  <!-- Brand -->
+  <rect x="22" y="15" width="34" height="34" rx="9" fill="#242629"/>
+  <path d="M32 22h9l6 6v14H32z" fill="none" stroke="#fff" stroke-width="1.45" stroke-linejoin="round"/>
+  <path d="M41 22v6h6M35 33h9M35 37h9" fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="66" y="37" font-size="16" font-weight="700" letter-spacing="-.45">ClearPDF</text>
+  <line x1="157" y1="19" x2="157" y2="46" class="line"/>
+  <text x="178" y="29" class="body" font-weight="600">Northstar_invoice_scan.pdf</text>
+  <text x="178" y="45" class="tiny muted">8 pages · 2.4 MB</text>
+  <rect x="394" y="22" width="93" height="22" rx="11" fill="#edf7f1"/>
+  <circle cx="407" cy="33" r="3.2" fill="#39815d"/>
+  <text x="416" y="37" font-size="9" font-weight="650" fill="#347553">OCR complete</text>
+  <rect x="494" y="22" width="100" height="22" rx="11" fill="#fff6e6"/>
+  <circle cx="507" cy="33" r="3.2" fill="#c58424"/>
+  <text x="516" y="37" font-size="9" font-weight="650" fill="#98651c">2 values to review</text>
+
+  <!-- Header actions -->
+  <rect x="1080" y="15" width="151" height="34" rx="7" fill="#fff" stroke="#dfe1e4"/>
+  <path d="M1098 23v12m-4-4 4 4 4-4m-8 8h8" fill="none" stroke="#5c6167" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1111" y="36" font-size="10" font-weight="600">Download original</text>
+  <rect x="1240" y="15" width="178" height="34" rx="7" fill="#242629"/>
+  <path d="M1258 23v12m-4-4 4 4 4-4m-8 8h8" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1271" y="36" font-size="10" font-weight="650" fill="#fff">Export clean PDF</text>
+
+  <!-- Viewer toolbar -->
+  <rect x="0" y="64" width="1440" height="54" fill="#fff"/>
+  <line x1="0" y1="117.5" x2="1440" y2="117.5" class="line"/>
+  <rect x="17" y="75" width="30" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <path d="M27 84h10M27 89h10M27 94h10" stroke="#666b71" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="57" y1="77" x2="57" y2="102" class="line"/>
+  <rect x="69" y="75" width="30" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <path d="m87 85-5 5 5 5" fill="none" stroke="#575c62" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="102" y="75" width="30" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <path d="m114 85 5 5-5 5" fill="none" stroke="#575c62" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="137" y="75" width="52" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <text x="163" y="94" text-anchor="middle" class="small" font-weight="600">1</text>
+  <text x="198" y="94" class="small muted">/ 8</text>
+  <line x1="224" y1="77" x2="224" y2="102" class="line"/>
+  <rect x="239" y="75" width="30" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <text x="254" y="95" text-anchor="middle" font-size="17" fill="#61666b">−</text>
+  <rect x="274" y="75" width="58" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <text x="303" y="94" text-anchor="middle" class="tiny" font-weight="600">100%</text>
+  <rect x="337" y="75" width="30" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <text x="352" y="95" text-anchor="middle" font-size="17" fill="#61666b">+</text>
+  <rect x="377" y="75" width="83" height="30" rx="6" fill="#fff" stroke="#e6e7e9"/>
+  <path d="M389 83h13v14h-13zM392 86h7M392 90h7" fill="none" stroke="#62676d" stroke-width="1.1"/>
+  <text x="407" y="94" font-size="9" font-weight="550">Fit page</text>
+  <line x1="478" y1="77" x2="478" y2="102" class="line"/>
+
+  <!-- Original / clean view switch -->
+  <rect x="498" y="73" width="188" height="34" rx="7" fill="#f2f3f4"/>
+  <text x="544" y="94" text-anchor="middle" class="tiny muted">Original PDF</text>
+  <rect x="592" y="75" width="91" height="30" rx="6" fill="#fff" stroke="#dedfe1"/>
+  <text x="637" y="94" text-anchor="middle" class="tiny" font-weight="650">Clean view</text>
+
+  <!-- Search -->
+  <rect x="874" y="75" width="214" height="30" rx="7" fill="#fff" stroke="#e2e4e6"/>
+  <circle cx="891" cy="88" r="5" fill="none" stroke="#81868c" stroke-width="1.2"/>
+  <path d="m895 92 4 4" stroke="#81868c" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="907" y="94" font-size="10" class="muted">Search extracted text</text>
+  <rect x="1044" y="80" width="32" height="20" rx="4" fill="#f2f3f4"/>
+  <text x="1060" y="94" text-anchor="middle" font-size="8" font-weight="600" class="muted">⌘ F</text>
+
+  <!-- Pages sidebar -->
+  <rect x="0" y="118" width="188" height="842" fill="#fff"/>
+  <line x1="187.5" y1="118" x2="187.5" y2="960" class="line"/>
+  <text x="20" y="148" class="body" font-weight="650">Pages</text>
+  <text x="167" y="148" text-anchor="end" class="tiny muted">8</text>
+  <line x1="19" y1="162" x2="169" y2="162" class="line"/>
+
+  <!-- Selected page thumbnail -->
+  <rect x="30" y="177" width="128" height="154" rx="5" fill="#fff" stroke="#d14b42" stroke-width="1.5"/>
+  <rect x="40" y="187" width="108" height="132" fill="#fff" stroke="#ececee"/>
+  <text x="49" y="202" font-size="6.4" font-weight="700">NORTHSTAR SUPPLY CO.</text>
+  <text x="49" y="214" font-size="8" font-weight="700">INVOICE</text>
+  <path d="M49 224h88M49 228h54M49 240h88M49 245h88M49 250h66M49 267h88M49 272h88M49 277h80M49 291h88" fill="none" stroke="#a8adb2" stroke-width="1"/>
+  <rect x="103" y="300" width="35" height="7" rx="2" fill="#fff1cf"/>
+  <text x="94" y="346" text-anchor="middle" class="tiny" font-weight="650">1</text>
+
+  <!-- Thumbnail 2 -->
+  <rect x="37" y="362" width="114" height="137" rx="4" fill="#fff" stroke="#e1e3e5"/>
+  <rect x="46" y="371" width="96" height="118" fill="#fff"/>
+  <path d="M54 386h78M54 391h56M54 402h78M54 407h78M54 412h66M54 426h78M54 431h78M54 436h72M54 452h78M54 457h78" fill="none" stroke="#b1b5b9" stroke-width="1"/>
+  <text x="94" y="514" text-anchor="middle" class="tiny muted">2</text>
+
+  <!-- Thumbnail 3 -->
+  <rect x="37" y="530" width="114" height="137" rx="4" fill="#fff" stroke="#e1e3e5"/>
+  <rect x="46" y="539" width="96" height="118" fill="#fff"/>
+  <path d="M54 554h78M54 559h61M54 570h78M54 575h78M54 580h67M54 594h78M54 599h78M54 604h72M54 620h78M54 625h78" fill="none" stroke="#b1b5b9" stroke-width="1"/>
+  <text x="94" y="682" text-anchor="middle" class="tiny muted">3</text>
+
+  <!-- Thumbnail 4 -->
+  <rect x="37" y="698" width="114" height="137" rx="4" fill="#fff" stroke="#e1e3e5"/>
+  <rect x="46" y="707" width="96" height="118" fill="#fff"/>
+  <path d="M54 722h78M54 727h56M54 738h78M54 743h78M54 748h69M54 762h78M54 767h78M54 772h70M54 788h78M54 793h78" fill="none" stroke="#b1b5b9" stroke-width="1"/>
+  <text x="94" y="850" text-anchor="middle" class="tiny muted">4</text>
+  <text x="20" y="916" class="tiny muted">Scroll for more pages</text>
+
+  <!-- Main viewer -->
+  <rect x="188" y="118" width="922" height="842" fill="#f3f4f5"/>
+  <text x="649" y="145" text-anchor="middle" class="label muted">CLEAN VIEW</text>
+  <text x="649" y="162" text-anchor="middle" class="tiny muted">Layout improved from extracted content · Confirm highlighted values against the original</text>
+
+  <!-- Clean document page -->
+  <rect x="384" y="184" width="530" height="735" fill="#fff" stroke="#e0e2e4" filter="url(#paper-shadow)"/>
+  <g transform="translate(0 0)">
+    <text x="427" y="229" class="papertext" font-size="10" font-weight="700" letter-spacing="1.1">NORTHSTAR SUPPLY CO.</text>
+    <text x="427" y="246" class="paper-muted" font-size="8.5">Industrial Components · 1401 Harbor Way, Oakland, CA 94607</text>
+    <text x="427" y="260" class="paper-muted" font-size="8.5">(510) 555-0148 · billing@northstarsupply.example</text>
+    <line x1="427" y1="276" x2="871" y2="276" stroke="#e3e5e7"/>
+
+    <text x="427" y="316" class="papertext" font-size="27" font-weight="700" letter-spacing="-.8">INVOICE</text>
+    <text x="427" y="339" class="papertext" font-size="9.5">Invoice No. NS-2026-0881</text>
+    <text x="715" y="307" class="paper-muted" font-size="8" font-weight="700" letter-spacing=".5">INVOICE DATE</text>
+    <text x="715" y="323" class="papertext" font-size="9.5">October 28, 2026</text>
+    <text x="715" y="344" class="paper-muted" font-size="8" font-weight="700" letter-spacing=".5">DUE DATE</text>
+    <text x="715" y="360" class="papertext" font-size="9.5">November 27, 2026</text>
+
+    <text x="427" y="384" class="paper-muted" font-size="8" font-weight="700" letter-spacing=".5">BILL TO</text>
+    <text x="427" y="403" class="papertext" font-size="10" font-weight="650">Ridgeway Logistics</text>
+    <text x="427" y="418" class="papertext" font-size="9">Accounts Payable</text>
+    <text x="427" y="433" class="papertext" font-size="9">3900 E. Airport Drive, Fresno, CA 93727</text>
+
+    <!-- Table -->
+    <rect x="427" y="460" width="444" height="32" rx="3" fill="#f5f6f7"/>
+    <text x="438" y="480" class="paper-muted" font-size="8" font-weight="700" letter-spacing=".45">DESCRIPTION</text>
+    <text x="678" y="480" text-anchor="middle" class="paper-muted" font-size="8" font-weight="700">QTY</text>
+    <text x="756" y="480" text-anchor="middle" class="paper-muted" font-size="8" font-weight="700">UNIT PRICE</text>
+    <text x="858" y="480" text-anchor="end" class="paper-muted" font-size="8" font-weight="700">AMOUNT</text>
+    <text x="438" y="518" class="papertext" font-size="9.3">Pallet rack safety guards</text>
+    <text x="678" y="518" text-anchor="middle" class="papertext" font-size="9.3">24</text>
+    <text x="756" y="518" text-anchor="middle" class="papertext" font-size="9.3">$62.50</text>
+    <text x="858" y="518" text-anchor="end" class="papertext" font-size="9.3">$1,500.00</text>
+    <line x1="427" y1="531" x2="871" y2="531" stroke="#eceef0"/>
+    <text x="438" y="555" class="papertext" font-size="9.3">Forklift aisle markers, set of 4</text>
+    <text x="678" y="555" text-anchor="middle" class="papertext" font-size="9.3">12</text>
+    <text x="756" y="555" text-anchor="middle" class="papertext" font-size="9.3">$88.00</text>
+    <text x="858" y="555" text-anchor="end" class="papertext" font-size="9.3">$1,056.00</text>
+    <line x1="427" y1="568" x2="871" y2="568" stroke="#eceef0"/>
+    <text x="438" y="592" class="papertext" font-size="9.3">Freight and handling</text>
+    <text x="678" y="592" text-anchor="middle" class="papertext" font-size="9.3">1</text>
+    <text x="756" y="592" text-anchor="middle" class="papertext" font-size="9.3">$174.00</text>
+    <text x="858" y="592" text-anchor="end" class="papertext" font-size="9.3">$174.00</text>
+    <line x1="427" y1="605" x2="871" y2="605" stroke="#eceef0"/>
+    <text x="438" y="629" class="papertext" font-size="9.3">Warehouse installation</text>
+    <text x="678" y="629" text-anchor="middle" class="papertext" font-size="9.3">8</text>
+    <text x="756" y="629" text-anchor="middle" class="papertext" font-size="9.3">$193.75</text>
+    <text x="858" y="629" text-anchor="end" class="papertext" font-size="9.3">$1,550.00</text>
+    <line x1="427" y1="642" x2="871" y2="642" stroke="#eceef0"/>
+
+    <!-- Totals -->
+    <text x="690" y="681" class="paper-muted" font-size="9">Subtotal</text>
+    <text x="858" y="681" text-anchor="end" class="papertext" font-size="9.3">$4,280.00</text>
+    <text x="690" y="705" class="paper-muted" font-size="9">Tax</text>
+    <text x="858" y="705" text-anchor="end" class="papertext" font-size="9.3">Included</text>
+    <line x1="680" y1="718" x2="871" y2="718" stroke="#dfe1e3"/>
+    <text x="690" y="747" class="papertext" font-size="11" font-weight="700">TOTAL DUE</text>
+    <rect x="780" y="727" width="84" height="27" rx="4" fill="#fff3d7"/>
+    <text x="858" y="746" text-anchor="end" class="papertext" font-size="12" font-weight="700">$4,280.00</text>
+    <text x="690" y="769" class="paper-muted" font-size="7.5">Highlighted value needs verification</text>
+    <line x1="427" y1="808" x2="871" y2="808" stroke="#e3e5e7"/>
+    <text x="427" y="829" class="paper-muted" font-size="8">Thank you for your business.</text>
+    <text x="871" y="884" text-anchor="end" class="paper-muted" font-size="8">Page 1 of 8</text>
+  </g>
+
+  <!-- Right information panel -->
+  <rect x="1110" y="118" width="330" height="842" fill="#fff"/>
+  <line x1="1110.5" y1="118" x2="1110.5" y2="960" class="line"/>
+  <text x="1134" y="149" class="body" font-weight="650">Document details</text>
+  <path d="M1400 139l8 8m0-8-8 8" stroke="#858a90" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="1110" y1="168" x2="1440" y2="168" class="line"/>
+
+  <!-- Document information -->
+  <text x="1134" y="196" class="label muted">DOCUMENT INFORMATION</text>
+  <text x="1134" y="222" class="tiny muted">File name</text>
+  <text x="1134" y="239" class="small" font-weight="550">Northstar_invoice_scan.pdf</text>
+  <text x="1134" y="265" class="tiny muted">Pages</text>
+  <text x="1407" y="265" text-anchor="end" class="small" font-weight="550">8</text>
+  <text x="1134" y="289" class="tiny muted">File size</text>
+  <text x="1407" y="289" text-anchor="end" class="small" font-weight="550">2.4 MB</text>
+  <text x="1134" y="313" class="tiny muted">Uploaded</text>
+  <text x="1407" y="313" text-anchor="end" class="small" font-weight="550">Today, 10:42 AM</text>
+  <line x1="1134" y1="331" x2="1417" y2="331" class="line"/>
+
+  <!-- OCR status -->
+  <text x="1134" y="358" class="label muted">OCR STATUS</text>
+  <circle cx="1140" cy="381" r="4" fill="#39815d"/>
+  <text x="1152" y="385" class="small" font-weight="600">Processing complete</text>
+  <text x="1417" y="385" text-anchor="end" class="tiny muted">8 / 8 pages</text>
+  <rect x="1134" y="398" width="283" height="5" rx="2.5" fill="#e8efea"/>
+  <rect x="1134" y="398" width="283" height="5" rx="2.5" fill="#4b8c69"/>
+  <rect x="1134" y="416" width="283" height="33" rx="6" fill="#fff7e9"/>
+  <circle cx="1148" cy="432" r="3.2" fill="#c58424"/>
+  <text x="1158" y="436" font-size="9.5" font-weight="600" fill="#8d611d">2 uncertain values to review</text>
+  <text x="1405" y="436" text-anchor="end" font-size="9" font-weight="650" fill="#9c6b1e">Review</text>
+  <line x1="1134" y1="466" x2="1417" y2="466" class="line"/>
+
+  <!-- Extracted text -->
+  <text x="1134" y="493" class="label muted">EXTRACTED TEXT</text>
+  <rect x="1134" y="506" width="283" height="30" rx="6" fill="#fff" stroke="#e2e4e6"/>
+  <circle cx="1149" cy="520" r="4.5" fill="none" stroke="#83888e" stroke-width="1.1"/>
+  <path d="m1152.5 523.5 3.5 3.5" stroke="#83888e" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="1163" y="524" font-size="9.5" class="muted">Find in extracted text</text>
+
+  <text x="1134" y="563" class="tiny muted">PAGE 1</text>
+  <text x="1134" y="587" class="small" font-weight="600">Invoice No.</text>
+  <text x="1417" y="587" text-anchor="end" class="small">NS-2026-0881</text>
+  <text x="1134" y="610" class="small" font-weight="600">Invoice date</text>
+  <text x="1417" y="610" text-anchor="end" class="small">October 28, 2026</text>
+  <text x="1134" y="633" class="small" font-weight="600">Total due</text>
+  <rect x="1335" y="618" width="82" height="22" rx="4" fill="#fff3d7"/>
+  <text x="1407" y="633" text-anchor="end" class="small" font-weight="650">$4,280.00</text>
+  <text x="1134" y="654" font-size="9" fill="#98651c">Highlighted value may need verification.</text>
+
+  <rect x="1134" y="677" width="283" height="36" rx="7" fill="#fff" stroke="#dfe1e4"/>
+  <text x="1275" y="700" text-anchor="middle" class="small" font-weight="600">Copy page text</text>
+  <text x="1134" y="741" class="tiny muted">OCR text remains separate from the clean layout.</text>
+  <text x="1134" y="757" class="tiny muted">Select text to copy or compare it with the original.</text>
+
+  <!-- Small bottom state strip -->
+  <line x1="1134" y1="792" x2="1417" y2="792" class="line"/>
+  <rect x="1134" y="812" width="8" height="8" rx="4" fill="#39815d"/>
+  <text x="1150" y="820" class="tiny muted">Original PDF is preserved for comparison.</text>
+  <text x="1134" y="916" class="tiny soft">Sample invoice shown for layout preview</text>
+</svg>

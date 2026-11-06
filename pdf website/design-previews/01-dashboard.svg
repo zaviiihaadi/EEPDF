@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;fill:#202124}.muted{fill:#767b82}.small{font-size:12px}.tiny{font-size:10px}.label{font-size:11px;font-weight:600;letter-spacing:.45px}.body{font-size:13px}.heading{font-size:28px;font-weight:650;letter-spacing:-.6px}.card{fill:#fff;stroke:#e5e7ea}.line{stroke:#eceef0;stroke-width:1}.red{fill:#d9362b}.navactive{fill:#f4f5f6}
+    </style>
+  </defs>
+  <rect width="1440" height="960" fill="#f7f8f9"/>
+  <rect width="236" height="960" fill="#fff"/>
+  <line x1="236" y1="0" x2="236" y2="960" stroke="#e7e8ea"/>
+  <rect x="24" y="22" width="34" height="34" rx="9" fill="#202124"/>
+  <path d="M34 30h10l7 7v13H34z" fill="none" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M44 30v7h7M37 42h10M37 46h10" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="68" y="45" font-size="18" font-weight="700" letter-spacing="-.4">ClearPDF</text>
+  <text x="25" y="100" class="tiny muted" font-weight="700" letter-spacing="1.2">WORKSPACE</text>
+  <rect x="14" y="115" width="208" height="40" rx="7" class="navactive"/>
+  <rect x="28" y="127" width="15" height="14" rx="2" fill="none" stroke="#26282b" stroke-width="1.5"/><path d="M31 131h9M31 135h9" stroke="#26282b" stroke-width="1.2"/>
+  <text x="54" y="140" font-size="13" font-weight="600">Overview</text>
+  <rect x="28" y="174" width="15" height="14" rx="2" fill="none" stroke="#71767c" stroke-width="1.4"/><path d="M31 178h9M31 182h9" stroke="#71767c" stroke-width="1.1"/>
+  <text x="54" y="187" class="body muted">All documents</text>
+  <path d="M36 221l2.6 5.3 5.9.9-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.2 5.9-.9z" fill="none" stroke="#71767c" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="54" y="234" class="body muted">Starred</text>
+  <line x1="24" y1="270" x2="212" y2="270" class="line"/>
+  <text x="25" y="302" class="tiny muted" font-weight="700" letter-spacing="1.2">PREFERENCES</text>
+  <circle cx="36" cy="333" r="7" fill="none" stroke="#71767c" stroke-width="1.4"/><path d="M36 322v3M36 341v3M25 333h3M44 333h3M28 325l2 2M42 339l2 2M44 325l-2 2M30 339l-2 2" stroke="#71767c" stroke-width="1.2"/>
+  <text x="54" y="337" class="body muted">Settings</text>
+  <rect x="16" y="870" width="204" height="66" rx="9" fill="#f8f8f8" stroke="#ebedef"/>
+  <circle cx="42" cy="903" r="17" fill="#eceef0"/><text x="42" y="907" text-anchor="middle" font-size="12" font-weight="700">AM</text>
+  <text x="68" y="899" font-size="12" font-weight="600">Alex Morgan</text><text x="68" y="918" class="tiny muted">Personal workspace</text>
+  <rect x="236" y="0" width="1204" height="72" fill="#fff"/><line x1="236" y1="71" x2="1440" y2="71" class="line"/>
+  <text x="274" y="43" class="body muted">Workspace</text><text x="343" y="43" class="body muted">/</text><text x="361" y="43" class="body" font-weight="600">Overview</text>
+  <rect x="1262" y="18" width="142" height="36" rx="7" fill="#202124"/><path d="M1284 30v12M1278 36h12" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/><text x="1298" y="41" fill="#fff" font-size="12" font-weight="600">New upload</text>
+  <text x="276" y="126" class="heading">PDF Document Processing</text>
+  <text x="276" y="153" class="body muted">Make scanned documents searchable, readable, and ready to use.</text>
+  <rect x="276" y="180" width="253" height="83" rx="8" class="card"/><text x="296" y="207" class="small muted">TOTAL DOCUMENTS</text><text x="296" y="242" font-size="27" font-weight="650">124</text><text x="494" y="240" class="small muted" text-anchor="end">All time</text>
+  <rect x="543" y="180" width="253" height="83" rx="8" class="card"/><text x="563" y="207" class="small muted">PROCESSED</text><text x="563" y="242" font-size="27" font-weight="650">112</text><circle cx="758" cy="234" r="4" fill="#48966b"/><text x="770" y="239" class="small muted">Ready</text>
+  <rect x="810" y="180" width="253" height="83" rx="8" class="card"/><text x="830" y="207" class="small muted">PROCESSING</text><text x="830" y="242" font-size="27" font-weight="650">4</text><circle cx="1028" cy="234" r="4" fill="#d39a35"/><text x="1040" y="239" class="small muted">In progress</text>
+  <rect x="1077" y="180" width="327" height="83" rx="8" class="card"/><text x="1097" y="207" class="small muted">NEEDS ATTENTION</text><text x="1097" y="242" font-size="27" font-weight="650">8</text><circle cx="1334" cy="234" r="4" fill="#d9362b"/><text x="1346" y="239" class="small muted">Review</text>
+  <rect x="276" y="285" width="1128" height="249" rx="10" fill="#fff" stroke="#e5e7ea"/>
+  <rect x="298" y="308" width="1084" height="202" rx="8" fill="#fcfcfc" stroke="#cfd2d6" stroke-width="1.3" stroke-dasharray="6 5"/>
+  <circle cx="840" cy="350" r="24" fill="#f0f1f2"/><path d="M840 362v-20m-8 8 8-8 8 8M829 365h22" fill="none" stroke="#555b62" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="840" y="401" text-anchor="middle" font-size="17" font-weight="650">Drop a PDF here</text>
+  <text x="840" y="424" text-anchor="middle" class="small muted">Scanned, searchable, and multi-page PDFs are supported.</text>
+  <rect x="783" y="445" width="114" height="34" rx="6" fill="#fff" stroke="#d8dade"/><text x="840" y="467" text-anchor="middle" class="small" font-weight="600">Browse files</text>
+  <text x="840" y="496" text-anchor="middle" class="tiny muted">PDF only · Up to 100 MB</text>
+  <text x="276" y="582" font-size="17" font-weight="650">Recent documents</text><text x="1380" y="582" text-anchor="end" class="small muted">View all 124  →</text>
+  <rect x="276" y="602" width="1128" height="315" rx="8" fill="#fff" stroke="#e5e7ea"/>
+  <rect x="277" y="603" width="1126" height="39" rx="8" fill="#fafafa"/>
+  <text x="298" y="628" class="tiny muted" font-weight="700" letter-spacing=".5">NAME</text><text x="824" y="628" class="tiny muted" font-weight="700" letter-spacing=".5">DATE ADDED</text><text x="1037" y="628" class="tiny muted" font-weight="700" letter-spacing=".5">STATUS</text><text x="1273" y="628" class="tiny muted" font-weight="700" letter-spacing=".5">ACTIONS</text>
+  <line x1="277" y1="642" x2="1403" y2="642" class="line"/>
+  <g>
+    <rect x="298" y="656" width="30" height="36" rx="3" fill="#fff" stroke="#e4e5e7"/><path d="M305 665h16M305 670h16M305 675h12" stroke="#d9362b" stroke-width="1.4"/><text x="339" y="673" font-size="12" font-weight="600">Q3 vendor invoices.pdf</text><text x="339" y="688" class="tiny muted">8 pages · 2.4 MB</text><text x="824" y="678" class="small muted">Today, 10:42 AM</text><circle cx="1046" cy="674" r="4" fill="#499a70"/><text x="1058" y="679" class="small">Processed</text><text x="1273" y="679" class="small" font-weight="600">Open</text><text x="1334" y="679" class="small muted">•••</text>
+    <line x1="277" y1="706" x2="1403" y2="706" class="line"/>
+    <rect x="298" y="720" width="30" height="36" rx="3" fill="#fff" stroke="#e4e5e7"/><path d="M305 729h16M305 734h16M305 739h12" stroke="#d9362b" stroke-width="1.4"/><text x="339" y="737" font-size="12" font-weight="600">Shipping_manifest_042.pdf</text><text x="339" y="752" class="tiny muted">12 pages · 5.8 MB</text><text x="824" y="742" class="small muted">Today, 9:18 AM</text><circle cx="1046" cy="738" r="4" fill="#d39a35"/><text x="1058" y="743" class="small">Processing</text><text x="1273" y="743" class="small" font-weight="600">Open</text><text x="1334" y="743" class="small muted">•••</text>
+    <line x1="277" y1="770" x2="1403" y2="770" class="line"/>
+    <rect x="298" y="784" width="30" height="36" rx="3" fill="#fff" stroke="#e4e5e7"/><path d="M305 793h16M305 798h16M305 803h12" stroke="#d9362b" stroke-width="1.4"/><text x="339" y="801" font-size="12" font-weight="600">Bank_statement_October.pdf</text><text x="339" y="816" class="tiny muted">5 pages · 1.1 MB</text><text x="824" y="806" class="small muted">Yesterday, 4:03 PM</text><circle cx="1046" cy="802" r="4" fill="#499a70"/><text x="1058" y="807" class="small">Processed</text><text x="1273" y="807" class="small" font-weight="600">Open</text><text x="1334" y="807" class="small muted">•••</text>
+    <line x1="277" y1="834" x2="1403" y2="834" class="line"/>
+    <rect x="298" y="848" width="30" height="36" rx="3" fill="#fff" stroke="#e4e5e7"/><path d="M305 857h16M305 862h16M305 867h12" stroke="#d9362b" stroke-width="1.4"/><text x="339" y="865" font-size="12" font-weight="600">Purchase_order_7819.pdf</text><text x="339" y="880" class="tiny muted">3 pages · 820 KB</text><text x="824" y="870" class="small muted">Yesterday, 1:26 PM</text><circle cx="1046" cy="866" r="4" fill="#499a70"/><text x="1058" y="871" class="small">Processed</text><text x="1273" y="871" class="small" font-weight="600">Open</text><text x="1334" y="871" class="small muted">•••</text>
+  </g>
+</svg>
